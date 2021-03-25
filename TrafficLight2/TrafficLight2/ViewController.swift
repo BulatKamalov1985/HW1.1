@@ -6,9 +6,16 @@
 //
 
 import UIKit
+enum SwitchColor {
+    case red
+    case yelloy
+    case green
+    case none
+}
 
 class ViewController: UIViewController {
-
+    var switchColor: SwitchColor = .none
+    
     @IBOutlet weak var redView: UIView!
     @IBOutlet weak var yellowView: UIView!
     @IBOutlet weak var greenView: UIView!
@@ -28,16 +35,35 @@ class ViewController: UIViewController {
         greenView.alpha = 0.3
         
     }
-
-    @IBAction func srattButtonpressed(_ sender: UIButton) {
-        if redView.alpha == 0.3{
+    
+    @IBAction func stertButtonOressed(_ sender: UIButton) {
+        switch switchColor {
+        case .none:
+            redView.alpha = 0.3
+            yellowView.alpha = 0.3
+            greenView.alpha = 0.3
+            switchColor = .red
+            startButton.setTitle("Next", for: .normal)
+        case .red:
             redView.alpha = 1
-        } else if yellowView.alpha == 0.3{
+            yellowView.alpha = 0.3
+            greenView.alpha = 0.3
+            switchColor = .yelloy
+        case .yelloy:
             yellowView.alpha = 1
-        } else if greenView.alpha == 0.3{
-            yellowView.alpha = 1
+            redView.alpha = 0.3
+            greenView.alpha = 0.3
+            switchColor = .green
+        case .green:
+            greenView.alpha = 1
+            redView.alpha = 0.3
+            yellowView.alpha = 0.3
+            switchColor = .none
+     
         }
     }
-    
 }
+
+    
+
 

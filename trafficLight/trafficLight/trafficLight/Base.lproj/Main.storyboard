@@ -49,6 +49,7 @@
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="showbuttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="rGg-93-mYX"/>
                                     <action selector="showbuttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRS-Fj-cYg"/>
                                 </connections>
                             </button>

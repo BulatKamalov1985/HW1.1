@@ -28,13 +28,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showbuttonPressed() {
-        if redLightView.alpha == 0.3{
+        if redLightView.alpha != 1{
             redLightView.alpha = 1
-        } else if yelloyLightView.alpha == 0.3{
+        } else if yelloyLightView.alpha != 1{
             yelloyLightView.alpha = 1
-        } else if greenLightView.alpha == 0.3{
+        } else if greenLightView.alpha != 1{
             yelloyLightView.alpha = 1
-        }
+        } 
         
     }
     
