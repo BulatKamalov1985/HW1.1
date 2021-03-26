@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="width" secondItem="zeZ-ww-bB9" secondAttribute="height" multiplier="175:71" id="ll1-9G-tep"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="srart">
+                                <state key="normal" title="start">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
                                 <connections>

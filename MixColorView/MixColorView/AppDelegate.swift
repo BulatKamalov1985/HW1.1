@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  trafficLight
+//  MixColorView
 //
-//  Created by Bulat Kamalov on 24.03.2021.
+//  Created by Bulat Kamalov on 26.03.2021.
 //
 
 import UIKit

@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39B07A6B260B0E630088D750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B07A6A260B0E630088D750 /* AppDelegate.swift */; };
-		39B07A6D260B0E630088D750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B07A6C260B0E630088D750 /* SceneDelegate.swift */; };
-		39B07A6F260B0E630088D750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B07A6E260B0E630088D750 /* ViewController.swift */; };
-		39B07A72260B0E630088D750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B07A70260B0E630088D750 /* Main.storyboard */; };
-		39B07A74260B0E640088D750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B07A73260B0E640088D750 /* Assets.xcassets */; };
-		39B07A77260B0E640088D750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B07A75260B0E640088D750 /* LaunchScreen.storyboard */; };
+		39B07AB2260DAB090088D750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B07AB1260DAB090088D750 /* AppDelegate.swift */; };
+		39B07AB4260DAB090088D750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B07AB3260DAB090088D750 /* SceneDelegate.swift */; };
+		39B07AB6260DAB090088D750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B07AB5260DAB090088D750 /* ViewController.swift */; };
+		39B07AB9260DAB090088D750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B07AB7260DAB090088D750 /* Main.storyboard */; };
+		39B07ABB260DAB090088D750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B07ABA260DAB090088D750 /* Assets.xcassets */; };
+		39B07ABE260DAB090088D750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B07ABC260DAB090088D750 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39B07A67260B0E630088D750 /* trafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		39B07A6A260B0E630088D750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39B07A6C260B0E630088D750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39B07A6E260B0E630088D750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39B07A71260B0E630088D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		39B07A73260B0E640088D750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39B07A76260B0E640088D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		39B07A78260B0E640088D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B07AAE260DAB090088D750 /* MixColorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixColorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B07AB1260DAB090088D750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39B07AB3260DAB090088D750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39B07AB5260DAB090088D750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39B07AB8260DAB090088D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39B07ABA260DAB090088D750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B07ABD260DAB090088D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B07ABF260DAB090088D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39B07A64260B0E630088D750 /* Frameworks */ = {
+		39B07AAB260DAB090088D750 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39B07A5E260B0E630088D750 = {
+		39B07AA5260DAB090088D750 = {
 			isa = PBXGroup;
 			children = (
-				39B07A69260B0E630088D750 /* trafficLight */,
-				39B07A68260B0E630088D750 /* Products */,
+				39B07AB0260DAB090088D750 /* MixColorView */,
+				39B07AAF260DAB090088D750 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		39B07A68260B0E630088D750 /* Products */ = {
+		39B07AAF260DAB090088D750 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39B07A67260B0E630088D750 /* trafficLight.app */,
+				39B07AAE260DAB090088D750 /* MixColorView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		39B07A69260B0E630088D750 /* trafficLight */ = {
+		39B07AB0260DAB090088D750 /* MixColorView */ = {
 			isa = PBXGroup;
 			children = (
-				39B07A6A260B0E630088D750 /* AppDelegate.swift */,
-				39B07A6C260B0E630088D750 /* SceneDelegate.swift */,
-				39B07A6E260B0E630088D750 /* ViewController.swift */,
-				39B07A70260B0E630088D750 /* Main.storyboard */,
-				39B07A73260B0E640088D750 /* Assets.xcassets */,
-				39B07A75260B0E640088D750 /* LaunchScreen.storyboard */,
-				39B07A78260B0E640088D750 /* Info.plist */,
+				39B07AB1260DAB090088D750 /* AppDelegate.swift */,
+				39B07AB3260DAB090088D750 /* SceneDelegate.swift */,
+				39B07AB5260DAB090088D750 /* ViewController.swift */,
+				39B07AB7260DAB090088D750 /* Main.storyboard */,
+				39B07ABA260DAB090088D750 /* Assets.xcassets */,
+				39B07ABC260DAB090088D750 /* LaunchScreen.storyboard */,
+				39B07ABF260DAB090088D750 /* Info.plist */,
 			);
-			path = trafficLight;
+			path = MixColorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		39B07A66260B0E630088D750 /* trafficLight */ = {
+		39B07AAD260DAB090088D750 /* MixColorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39B07A7B260B0E640088D750 /* Build configuration list for PBXNativeTarget "trafficLight" */;
+			buildConfigurationList = 39B07AC2260DAB090088D750 /* Build configuration list for PBXNativeTarget "MixColorView" */;
 			buildPhases = (
-				39B07A63260B0E630088D750 /* Sources */,
-				39B07A64260B0E630088D750 /* Frameworks */,
-				39B07A65260B0E630088D750 /* Resources */,
+				39B07AAA260DAB090088D750 /* Sources */,
+				39B07AAB260DAB090088D750 /* Frameworks */,
+				39B07AAC260DAB090088D750 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = trafficLight;
-			productName = trafficLight;
-			productReference = 39B07A67260B0E630088D750 /* trafficLight.app */;
+			name = MixColorView;
+			productName = MixColorView;
+			productReference = 39B07AAE260DAB090088D750 /* MixColorView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		39B07A5F260B0E630088D750 /* Project object */ = {
+		39B07AA6260DAB090088D750 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					39B07A66260B0E630088D750 = {
+					39B07AAD260DAB090088D750 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 39B07A62260B0E630088D750 /* Build configuration list for PBXProject "trafficLight" */;
+			buildConfigurationList = 39B07AA9260DAB090088D750 /* Build configuration list for PBXProject "MixColorView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 39B07A5E260B0E630088D750;
-			productRefGroup = 39B07A68260B0E630088D750 /* Products */;
+			mainGroup = 39B07AA5260DAB090088D750;
+			productRefGroup = 39B07AAF260DAB090088D750 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39B07A66260B0E630088D750 /* trafficLight */,
+				39B07AAD260DAB090088D750 /* MixColorView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39B07A65260B0E630088D750 /* Resources */ = {
+		39B07AAC260DAB090088D750 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B07A77260B0E640088D750 /* LaunchScreen.storyboard in Resources */,
-				39B07A74260B0E640088D750 /* Assets.xcassets in Resources */,
-				39B07A72260B0E630088D750 /* Main.storyboard in Resources */,
+				39B07ABE260DAB090088D750 /* LaunchScreen.storyboard in Resources */,
+				39B07ABB260DAB090088D750 /* Assets.xcassets in Resources */,
+				39B07AB9260DAB090088D750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39B07A63260B0E630088D750 /* Sources */ = {
+		39B07AAA260DAB090088D750 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B07A6F260B0E630088D750 /* ViewController.swift in Sources */,
-				39B07A6B260B0E630088D750 /* AppDelegate.swift in Sources */,
-				39B07A6D260B0E630088D750 /* SceneDelegate.swift in Sources */,
+				39B07AB6260DAB090088D750 /* ViewController.swift in Sources */,
+				39B07AB2260DAB090088D750 /* AppDelegate.swift in Sources */,
+				39B07AB4260DAB090088D750 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39B07A70260B0E630088D750 /* Main.storyboard */ = {
+		39B07AB7260DAB090088D750 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39B07A71260B0E630088D750 /* Base */,
+				39B07AB8260DAB090088D750 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		39B07A75260B0E640088D750 /* LaunchScreen.storyboard */ = {
+		39B07ABC260DAB090088D750 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				39B07A76260B0E640088D750 /* Base */,
+				39B07ABD260DAB090088D750 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		39B07A79260B0E640088D750 /* Debug */ = {
+		39B07AC0260DAB090088D750 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		39B07A7A260B0E640088D750 /* Release */ = {
+		39B07AC1260DAB090088D750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,66 +281,66 @@
 			};
 			name = Release;
 		};
-		39B07A7C260B0E640088D750 /* Debug */ = {
+		39B07AC3260DAB090088D750 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9J4WDMWF3;
-				INFOPLIST_FILE = trafficLight/Info.plist;
+				INFOPLIST_FILE = MixColorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bulatK.trafficLight;
+				PRODUCT_BUNDLE_IDENTIFIER = bulatK.MixColorView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		39B07A7D260B0E640088D750 /* Release */ = {
+		39B07AC4260DAB090088D750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A9J4WDMWF3;
-				INFOPLIST_FILE = trafficLight/Info.plist;
+				INFOPLIST_FILE = MixColorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bulatK.trafficLight;
+				PRODUCT_BUNDLE_IDENTIFIER = bulatK.MixColorView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39B07A62260B0E630088D750 /* Build configuration list for PBXProject "trafficLight" */ = {
+		39B07AA9260DAB090088D750 /* Build configuration list for PBXProject "MixColorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39B07A79260B0E640088D750 /* Debug */,
-				39B07A7A260B0E640088D750 /* Release */,
+				39B07AC0260DAB090088D750 /* Debug */,
+				39B07AC1260DAB090088D750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39B07A7B260B0E640088D750 /* Build configuration list for PBXNativeTarget "trafficLight" */ = {
+		39B07AC2260DAB090088D750 /* Build configuration list for PBXNativeTarget "MixColorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39B07A7C260B0E640088D750 /* Debug */,
-				39B07A7D260B0E640088D750 /* Release */,
+				39B07AC3260DAB090088D750 /* Debug */,
+				39B07AC4260DAB090088D750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 39B07A5F260B0E630088D750 /* Project object */;
+	rootObject = 39B07AA6260DAB090088D750 /* Project object */;
 }
